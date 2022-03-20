@@ -16,14 +16,6 @@ svg{
 }
 
 /* ==========================header 영역 시작 */
-.header{
-    width: 100%;
-    position: sticky;
-    padding: 32px 0px 0px 0px;
-    top: -32px;
-    background-color: #ffffff;
-}
-
 .header1{
     background-color: #f2f2f2;
     height: 32px;
@@ -37,20 +29,33 @@ svg{
     
 }
 .h1btn div{
-    position: relative;
     width: 300px;
     height: 32px;
     float: right;
 }
 .h1btn div a{
-    position: relative;
+    position: absolute;
+    height: 15px;
     font-weight: 400;
     line-height: 20px;
     letter-spacing: .2px;
     font-size: 13px;
-    padding: 0px 16px;
-    margin-top: 6px;
+    padding: 8.5px 16px;
 }
+.h1btn2{
+    margin-left: 86px;
+}
+.h1btn3{
+    margin-left: 171px;
+}
+.header{
+    width: 100%;
+    position: sticky;
+    padding: 32px 0px 0px 0px;
+    top: -32px;
+    background-color: #ffffff;
+}
+
 
 .header2{
     max-width: 1440px;
@@ -87,13 +92,17 @@ svg{
     float: right;
 }
 .h2btn div a{
+    display: flex;
     font-weight: 400;
-    line-height: 24px;
+    line-height: 50px;
     letter-spacing: .2px;
     font-size: 16px;
-    padding: 0px 16px;
+    padding: 13.5px 16px;
     margin: auto;
+    vertical-align: center;
+
 }
+
 
 .header3{
     width: 100%;
@@ -103,14 +112,27 @@ svg{
 .nav{
     max-width: 1440px;
 }
-.menu1{
-    width: 100px;
+.menu{
+    max-width: 1408px;
+    margin: 0px 16px;
     height: 40px;
 }
-.submenu{
-    max-width: 1440px;
+.menu a{
+    font-weight: bold;
+    color: #ffffff;
+    font-size: 16px;
+    max-width: 150px;
+    height: 24px;
+    padding: 8px 16px;
+    float: left;
+}
+
+.submenu1{
+    max-width: 1408px;
+    margin: 0px 16px;
     height: 300px;
     background-color: #ffffff;
+    display: none;
 }
 
 
@@ -128,48 +150,126 @@ svg{
 
 .c1{
     max-width: 1440px;
-    height: 473px;
+    height: auto;
     background-color: lightpink; /*<=============================틀잡은 후 제거*/
+
+    
+}
+.c1 a{
+    width: 100%;
+}
+.c1 a img{
+    width: 100%;
 }
 .c2{
     max-width: 1440px;
     height: 14.4px;
+    margin-bottom: 20px;
     background-color: lightblue; /*<===============================틀잡은후 제거*/
 }
 .c3{
     max-width: 1440px;
     height: 40;
     margin: 0px auto 24px;
-    background-color: lightpink; /*<=============================틀잡은 후 제거*/
+    display: flex;
+}
+.c3 a{
+    width: 30%;
+    height: 38px;
+    color: #008190;
+    border-width: 1px;
+    border-style: solid;
+    border-color: #008190;
+    box-shadow: 0 2px 1px 0 #ccc;
+    text-align: center;
+    line-height: 40px;
 }
 .c4{
     max-width: 1440px;
-    max-height: 116px;
+    height: auto;
     margin: 0px auto 80px;
     background-color: lightblue; /*<===============================틀잡은후 제거*/
+    display: flex;
+}
+.c4 a{
+    width: 14%;
+}
+.c4 a img{
+    width: 100%;
 }
 .c5{
     max-width: 1440px;
-    height: 456px;
-    margin: 0px auto 40px;
+    height: auto;
+    margin: 0px auto 80px;
+    display: flex;
     background-color: lightpink; /*<=============================틀잡은 후 제거*/
+}
+.c5 *{
+    color: #1a1a1a;
+}
+.c51{
+    width: 22%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+}
+.c51 h3{
+    width: 100%;
+    margin: 8px 0px;
+}
+
+.c51 div{
+    width: 100%;
+    margin-top: 8px;
+}
+.c5 img{
+    width: 100%;
+}
+.review{
+    font-size: 10px;
 }
 .c6{
     max-width: 1440px;
-    height: 14.4px;
+    height: auto;
+    margin-bottom: 20px;
     background-color: lightblue; /*<===============================틀잡은후 제거*/
+}
+.c6 a{
+    width: 100%;
+}
+.c6 a img{
+    width: 100%;
 }
 .c7{
     max-width: 1440px;
-    height: 427px;
+    height: 14.4px;
     background-color: lightpink; /*<=============================틀잡은 후 제거*/
 }
 .c8{
     max-width: 1440px;
-    height: 1091px;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 100px;
     background-color: lightblue; /*<===============================틀잡은후 제거*/
 }
-
+.c8 div {
+    width: 100%;
+    display: flex;
+}
+.c8 div div{
+    display: flex;
+    flex-direction: column;
+}
+.c8 div div img{
+    width: 90%;
+}
+.c8 div div h3{
+    font-weight: 700;
+    font-size: 20px;
+    margin-top: 15px;
+    margin-bottom: 60px;
+}
 /* ==========================footer 영역 시작 */
 .footer{
     background-color: lightgreen;  /*<=============================틀잡은후 제거*/
