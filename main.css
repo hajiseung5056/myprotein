@@ -151,12 +151,14 @@ svg{
 .c1{
     max-width: 1440px;
     height: auto;
+    margin-bottom: 20px;
     background-color: lightpink; /*<=============================틀잡은 후 제거*/
 
     
 }
 .c1 a{
     width: 100%;
+    
 }
 .c1 a img{
     width: 100%;
@@ -164,7 +166,7 @@ svg{
 .c2{
     max-width: 1440px;
     height: 14.4px;
-    margin-bottom: 20px;
+    margin-bottom: 10px;
     background-color: lightblue; /*<===============================틀잡은후 제거*/
 }
 .c3{
@@ -243,6 +245,7 @@ svg{
 .c7{
     max-width: 1440px;
     height: 14.4px;
+    margin-bottom: 10px;
     background-color: lightpink; /*<=============================틀잡은 후 제거*/
 }
 .c8{
@@ -276,20 +279,69 @@ svg{
 }
 
 .footer1{
-    height: 260px;
+    margin: 32px 16px 0px;
+    padding: 32px 16px;
+    height: 164px;
     display: flex;
 }
+.f1-1{
+    flex: 1;
+    max-width: 100%;
+    margin: 0px 16px;
+}
+.f1-2{
+    flex: 1;
+    max-width: 100%;
+    margin: 0px 16px;
+    display: flex;
+}
+.f1-2 a{
+    width: 100%;
+    height: auto;
+    margin: auto 0px;
+}
+.f1-2 img{
+    width: 100%;
+}
+.f1-3{
+    flex: 1;
+    max-width: 100%;
+    margin: 0px 16px;
+    display: flex;
+    flex-direction: column;
+}
+.f1-3 div{
+    width: 87px;
+    height: 24px;
+    text-align: center;
+}
+.f1-4{
+    flex: 1;
+    max-width: 100%;
+    margin: 0px 16px;
+    display: flex;
+    flex-direction: column;
+}
+.f1-4 div{
+    width: 276px;
+    height: 24px;
+    text-align: center;
+}
+
 
 .footer2{
     height: 130px;
     display: flex;
-
+    background-color: #454749;
+    padding: 20px 16px 0px;
 }
+.f2
 
 .footer3{
     height: 425px;
     display: flex;
-
+    background-color: #5E6163;
+    color: #ffffff;
 }
 
 .f3-1{
